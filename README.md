@@ -4,8 +4,8 @@
 
 openai/
 - OpenAI_ImageGen_Example01.ipynb: Generates images using OpenAI's GPT-Image-1 model. (Simple example for learning)
-- OpenAI_ImageGen_Example02.ipynb: Generates images using OpenAI's GPT-Image-1 model and automatically saves them to Google Drive.
-- OpenAI_ImageEdit_Example01.ipynb: Edits images using OpenAI's GPT-Image-1 model. (Supports only one input image. Also demonstrates image generation with GPT-Image-1)
+- OpenAI_ImageGen_Example02.ipynb: Generates images using OpenAI's GPT-Image-1 model and automatically saves them to Google Drive with metadata.
+- OpenAI_ImageEdit_Example01.ipynb: Edits images using OpenAI's GPT-Image-1 model. (Supports up to 16 input images. Also demonstrates image generation with GPT-Image-1)
 
 gemini/
 - Gemini_example_000.ipynb: Sample notebook demonstrating how to use the Gemini API and its features.
@@ -23,8 +23,8 @@ colab_sample/
 openai/
 
 - OpenAI_ImageGen_Example01.ipynb：OpenAIのGPT-Image-1モデルで画像生成。 (学習用シンプルな記述)
-- OpenAI_ImageGen_Example02.ipynb：OpenAIのGPT-Image-1モデルで画像生成。 (生成した画像をGoogle Driveに自動保存)
-- OpenAI_ImageEdit_Example01.ipynb：OpenAIのGPT-Image-1モデルで画像編集。（入力画像１つのみサポート。OpenAIのGPT-Image-1モデルで画像生成)
+- OpenAI_ImageGen_Example02.ipynb：OpenAIのGPT-Image-1モデルで画像生成。（生成した画像とメタデータをGoogle Driveに自動保存、カスタムフォルダー機能付き）
+- OpenAI_ImageEdit_Example01.ipynb：OpenAIのGPT-Image-1モデルで画像編集。（最大16枚の入力画像に対応。OpenAIのGPT-Image-1モデルで画像生成）
 
 gemini/
 - Gemini_example_000.ipynb：Gemini APIの使い方や機能を示すサンプルノートブック。
