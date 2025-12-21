@@ -32,15 +32,28 @@ Google Colab で動かすことを前提にした、画像生成/画像編集ま
 | exmaple_gemini_2.0-flash_001.ipynb | Gemini 2.0 Flash の画像生成サンプル（追加例） |
 | exmaple_vertexai_imagen_001.ipynb | Vertex AI Imagen の画像生成サンプル |
 
-### colab_sample/
-
-| ファイル名 | 概要 |
-| --- | --- |
-| Gemini_Get_started_J.ipynb | Gemini API クイックスタート（日本語訳） |
-| Get_started_J.ipynb | Gemini API クイックスタート（日本語・作業用） |
-| Get_started_copied.ipynb | Gemini API クイックスタート（コピー） |
-
 ## チェンジログ
 
 - 2025-12-21: ノートブックのファイル名リネーム、`gpt-image-1.5` 関連ノートブックの追加/更新
 - 2025-12-21: `google/Get_Started_Nano_Banana_ja.ipynb` のテキストブロック（Markdown）を和訳
+
+
+
+## License
+
+This repository contains sample code under multiple licenses.
+
+- Code under `google/` is licensed under the Apache License, Version 2.0.
+- Code under `oepnai/` is licensed under the MIT License.
+
+Unless otherwise noted, this repository is distributed under the Apache License, Version 2.0.
+
+---
+
+本リポジトリには複数のライセンスのサンプルコードが含まれています。
+
+- `google/` 配下のコードは Apache License Version 2.0 に従います。
+- `oepnai/` 配下のコードは MIT License に従います。
+
+特に明記されていない限り、本リポジトリ全体は Apache License Version 2.0 の条件で公開されています。
+
