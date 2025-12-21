@@ -1,78 +1,46 @@
 # google-colab-notebooks-catnip
 
-## Notebooks in this repository
+Google Colab で動かすことを前提にした、画像生成/画像編集まわりのサンプルノートブック集です。
 
-openai/
-- OpenAI_ImageGen_Example01.ipynb: Generates images using OpenAI's GPT-Image-1 model. (Simple example for learning)
-- OpenAI_ImageGen_Example02.ipynb: Generates images using OpenAI's GPT-Image-1 model and automatically saves them to Google Drive with metadata.
-- OpenAI_ImageEdit_Example01.ipynb: Edits images using OpenAI's GPT-Image-1 model. (Supports up to 16 input images. Also demonstrates image generation with GPT-Image-1)
-- OpenAI_ImageEdit_Example02.ipynb: Advanced image editing with OpenAI's GPT-Image-1 model with extended features and improved workflow.
+## 使い方
 
-## Detailed Notebook Specifications
+- GitHub 上で `.ipynb` を開き、`Open in Colab` から実行します
+- API キーの設定方法は各ノートブック内の手順（`userdata` / 環境変数など）を参照してください
 
-### OpenAI_ImageEdit_Example01.ipynb
-This notebook provides a comprehensive toolkit for image editing using OpenAI's GPT-Image-1 model:
-- Process up to 16 input images simultaneously
-- Support for various image editing operations through text prompts
-- Includes basic image generation capabilities
-- Simple interface for quick experimentation
-- Direct download of generated images
-- Demonstrates both image editing and generation workflows
+## ノートブック一覧（フォルダ別）
 
-### OpenAI_ImageEdit_Example02.ipynb
-An advanced version of the image editing notebook with enhanced functionality:
-- Extended editing capabilities with more parameter controls
-- Automatic saving to Google Drive with custom folder organization
-- Detailed metadata tracking for all generated images
-- Batch processing with customizable settings
-- Improved UI with progress tracking
-- Advanced prompt management for consistent results
-- Comparison view between original and edited images
+### openai/
 
-gemini/
-- Gemini_example_000.ipynb: Sample notebook demonstrating how to use the Gemini API and its features.
+| ファイル名 | 概要 |
+| --- | --- |
+| example_gpt-image-1.0_create01.ipynb | GPT-Image-1 で画像生成（基本） |
+| example_gpt-image-1.0_create02.ipynb | GPT-Image-1 で画像生成（Google Drive 保存/メタデータ保存の例） |
+| example_gpt-image-1.0_edit01.ipynb | GPT-Image-1 で画像編集（複数入力/保存まわりの例） |
+| example_gpt-image-1.0_edit02.ipynb | GPT-Image-1 で画像編集（拡張版） |
+| example_gpt-image-1.5_create01.ipynb | GPT-Image-1.5 で画像生成 |
+| example_gpt-image-1.5_edit01.ipynb | GPT-Image-1.5 で画像編集 |
 
-colab_sample/
-- Gemini_Get_started_J.ipynb: Japanese-translated version of the Gemini API quickstart notebook.
-- Get_started_copied.ipynb: Copy of the Gemini API quickstart notebook for reference and experimentation.
+### google/
 
----
+| ファイル名 | 概要 |
+| --- | --- |
+| Do_It_Yourself_Imagen3_ja.ipynb | Imagen 3 のハンズオン（日本語） |
+| Get_Started_Gemini2.0_ja.ipynb | Gemini 2.0 入門（日本語） |
+| Get_Started_Nano_Banana_ja.ipynb | Gemini ネイティブ画像生成（Nano-Banana）入門（日本語） |
+| Getting_started_with_Gemini_2.0.ipynb | Gemini 2.0 入門（原文） |
+| exmaple_gemini_2.0-flash_000.ipynb | Gemini 2.0 Flash の画像生成サンプル（テキスト+画像） |
+| exmaple_gemini_2.0-flash_001.ipynb | Gemini 2.0 Flash の画像生成サンプル（追加例） |
+| exmaple_vertexai_imagen_001.ipynb | Vertex AI Imagen の画像生成サンプル |
 
-# google-colab-notebooks-catnip（日本語）
+### colab_sample/
 
-## このリポジトリのノートブック一覧
+| ファイル名 | 概要 |
+| --- | --- |
+| Gemini_Get_started_J.ipynb | Gemini API クイックスタート（日本語訳） |
+| Get_started_J.ipynb | Gemini API クイックスタート（日本語・作業用） |
+| Get_started_copied.ipynb | Gemini API クイックスタート（コピー） |
 
-openai/
+## チェンジログ
 
-- OpenAI_ImageGen_Example01.ipynb：OpenAIのGPT-Image-1モデルで画像生成。（学習用シンプルな記述）
-- OpenAI_ImageGen_Example02.ipynb：OpenAIのGPT-Image-1モデルで画像生成。（生成した画像とメタデータをGoogle Driveに自動保存、カスタムフォルダー機能付き）
-- OpenAI_ImageEdit_Example01.ipynb：OpenAIのGPT-Image-1モデルで画像編集。（最大16枚の入力画像に対応。OpenAIのGPT-Image-1モデルで画像生成）
-- OpenAI_ImageEdit_Example02.ipynb：OpenAIのGPT-Image-1モデルでの高度な画像編集。（拡張機能と改良されたワークフロー）
-
-## ノートブックの詳細仕様
-
-### OpenAI_ImageEdit_Example01.ipynb
-このノートブックはOpenAIのGPT-Image-1モデルを使用した画像編集のための総合的なツールキットを提供します：
-- 最大16枚の入力画像を同時に処理可能
-- テキストプロンプトを通じてさまざまな画像編集操作をサポート
-- 基本的な画像生成機能も含む
-- 素早い実験のためのシンプルなインターフェース
-- 生成された画像の直接ダウンロード
-- 画像編集と生成の両方のワークフローを実演
-
-### OpenAI_ImageEdit_Example02.ipynb
-より高度な機能を備えた画像編集ノートブックの拡張バージョン：
-- より多くのパラメータ制御による拡張編集機能
-- カスタムフォルダ編成によるGoogle Driveへの自動保存
-- すべての生成画像の詳細なメタデータ追跡
-- カスタマイズ可能な設定によるバッチ処理
-- 進捗追跡機能を備えた改良されたUI
-- 一貫した結果を得るための高度なプロンプト管理
-- オリジナル画像と編集画像の比較ビュー
-
-gemini/
-- Gemini_example_000.ipynb：Gemini APIの使い方や機能を示すサンプルノートブック。
-
-colab_sample/
-- Gemini_Get_started_J.ipynb：Gemini APIクイックスタートノートブックの日本語訳版。
-- Get_started_copied.ipynb：Gemini APIクイックスタートノートブックのコピー。参照や実験用。
+- 2025-12-21: ノートブックのファイル名リネーム、`gpt-image-1.5` 関連ノートブックの追加/更新
+- 2025-12-21: `google/Get_Started_Nano_Banana_ja.ipynb` のテキストブロック（Markdown）を和訳
